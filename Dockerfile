@@ -45,3 +45,4 @@ ADD rootfs /
 WORKDIR /portus
 EXPOSE 80 443
 ENTRYPOINT ["/init"]
+CMD ["/start_portus_service"]
